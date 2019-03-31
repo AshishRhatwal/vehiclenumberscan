@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mra.com.vehicletracker.fragment.BlackListFragment">
+
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/bgcolor"
+       >
+
+      <TextView
+          android:id="@+id/t"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Black Listed Vehicle"
+          android:layout_centerHorizontal="true"
+          android:textSize="30dp"
+          android:fontFamily="sans-serif-condensed"
+          android:textColor="@color/white"
+          />
+
+   <android.support.v7.widget.RecyclerView
+       android:layout_below="@+id/t"
+       android:id="@+id/blackrec"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="20dp"
+       android:layout_marginBottom="10dp">
+
+
+   </android.support.v7.widget.RecyclerView>
+
+   </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    tools:context="mra.com.vehicletracker.SendInfo">
+
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/ppcolor">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Register New Vehicle"
+            android:textSize="28dp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_below="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilay1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/pid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:hint="Vehicle Number"
+                android:inputType="text"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilay2"
+            android:layout_below="@+id/tilay1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/pname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:hint="Company Name"
+            android:inputType="text"
+            android:layout_marginTop="5dp"
+            />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilay3"
+            android:layout_below="@+id/tilay2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/pcontact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:hint="Vehicle Color"
+            android:layout_marginTop="5dp"
+            android:inputType="text"
+            />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilay4"
+            android:layout_below="@+id/tilay3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/pusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:hint="Type of Vehicle"
+            android:layout_marginTop="5dp"
+            android:inputType="text"
+            />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilay5"
+            android:layout_below="@+id/tilay4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/ppass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:hint="Vehicle Name"
+            android:layout_marginTop="5dp"
+            android:inputType="text"
+            />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/addpolice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Register Vehicle"
+            android:textAllCaps="true"
+            android:fontFamily="serif"
+            android:textColor="@color/white"
+            android:background="@color/buttoncolor"
+            />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

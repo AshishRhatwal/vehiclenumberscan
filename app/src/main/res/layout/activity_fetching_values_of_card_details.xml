@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    tools:context="mra.com.vehicletracker.FetchingValuesOfCardDetails"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/ppcolor"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="Vehicle Details"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:fontFamily="serif-monospace"
+            android:textSize="30dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="match_parent"
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/rel2"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Vechicle Number"
+                android:fontFamily="serif"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:id="@+id/vnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Vechicle Number"
+                android:fontFamily="serif"
+                android:textColor="@color/red"
+                android:textSize="20dp"
+                android:textAllCaps="true"
+                android:layout_alignParentRight="true"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lightgray"
+                android:layout_below="@id/vnum"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel3"
+            android:layout_below="@id/rel2"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Vechicle Name"
+                android:fontFamily="serif"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:id="@+id/vname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/red"
+                android:textAllCaps="true"
+                android:layout_alignParentRight="true"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lightgray"
+                android:layout_below="@id/name1"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel4"
+            android:layout_below="@id/rel3"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Vechicle Colour"
+                android:fontFamily="serif"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:id="@+id/vcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/red"
+                android:textAllCaps="true"
+                android:layout_alignParentRight="true"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lightgray"
+                android:layout_below="@id/name2"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel5"
+            android:layout_below="@id/rel4"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="serif"
+                android:textColor="@color/black"
+                android:text="Company Name"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:id="@+id/cname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/red"
+                android:textAllCaps="true"
+                android:layout_alignParentRight="true"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lightgray"
+                android:layout_below="@id/cname"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel6"
+            android:layout_below="@id/rel5"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/name4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Type Of Vehicle"
+                android:fontFamily="serif"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/red"
+                android:textAllCaps="true"
+                android:layout_alignParentRight="true"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lightgray"
+                android:layout_below="@id/type"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/ar"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rel6"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:text="Already In Black List"
+            android:textColor="@color/red"
+            android:layout_marginTop="20dp"
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+
+        <Button
+            android:id="@+id/blacklist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Black List"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:background="@color/ppcolor"
+            />
+
+        <Button
+            android:id="@+id/whitelist"
+            android:layout_above="@id/blacklist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="White List"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/buttoncolor"
+            />
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

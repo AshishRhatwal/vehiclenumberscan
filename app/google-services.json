@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "642651783090",
+    "firebase_url": "https://finalyear-f13ab.firebaseio.com",
+    "project_id": "finalyear-f13ab",
+    "storage_bucket": "finalyear-f13ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642651783090:android:d42224985e58c712",
+        "android_client_info": {
+          "package_name": "mra.com.vehicletracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642651783090-j83ai03vea5f4pjet6a8rk9c2p2tf9vq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVmAbhismh1IZ75adzD4tGLReknlUZnNE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

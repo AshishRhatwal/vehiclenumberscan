@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mra.com.vehicletracker.StartActivity"
+    android:background="@color/black"
+    >
+
+    <View
+        android:id="@+id/v"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/ppcolor"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vehicle Tracking"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/white"
+        />
+
+
+
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/l"
+        android:padding="10dp"
+        android:background="@drawable/btncornerradius"
+        android:backgroundTint="@color/white"
+        android:layout_centerInParent="true"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp">
+
+        <Button
+            android:id="@+id/police"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btncornerradiustop"
+            android:backgroundTint="@color/darkoranger"
+            android:fontFamily="sans-serif-condensed"
+            android:text="P o l i c e"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+
+            />
+
+        <View
+            android:id="@+id/v2"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@+id/police"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/darkblue" />
+
+        <Button
+            android:id="@+id/admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/v2"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/btncornerradiusbot"
+            android:backgroundTint="@color/darkred"
+            android:fontFamily="sans-serif-condensed"
+            android:text="A d m i n"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

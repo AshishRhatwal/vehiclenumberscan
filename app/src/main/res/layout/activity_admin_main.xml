@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mra.com.vehicletracker.AdminMainActivity"
+    android:background="@color/bgcolor"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rel1"
+            >
+
+
+            <android.support.design.widget.AppBarLayout
+                android:id="@+id/app"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/ppcolor"
+
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/slogon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:text="Admin Control"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="serif"
+                        />
+
+
+
+                </RelativeLayout>
+
+            </android.support.design.widget.AppBarLayout>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel2"
+            android:layout_below="@id/rel1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="80dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/l"
+                android:backgroundTint="@color/white"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="सत्यमेव जयते"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:fontFamily="serif"
+                />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rel2"
+            android:orientation="vertical"
+            android:layout_margin="0dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="0dp">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/addpoli"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:backgroundTint="@color/white"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/add" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="serif"
+                            android:text="Add PoliceMan"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/managepolice"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="@color/white"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="80dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/manage"
+                            android:backgroundTint="@color/indigo_500" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="serif"
+                            android:text="Manage Police"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/blacklist"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/white"
+                    app:cardCornerRadius="10dp"
+
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/blacklist"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="serif"
+                            android:text="Black Listed "
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Zero Defect, Zero Effect- PM.MODI"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            >
+
+            <TextView
+                android:id="@+id/re"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register New Vehicle...!"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:fontFamily="serif"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Government!"
+                android:textAllCaps="true"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:fontFamily="serif"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
